@@ -1,4 +1,4 @@
-# User Authentication System
+# User Authentication
 
 ## Database Setup
 
