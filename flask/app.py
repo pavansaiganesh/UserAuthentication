@@ -8,7 +8,7 @@ def create_app():
     app = Flask(__name__)
 
     app.config['SQLALCHEMY_DATABASE_URI'] = \
-    'mssql+pyodbc://PAVAN/EcommerceDB?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server'
+    'mssql+pyodbc://PAVAN/UserdataDB?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server'
     
     db.init_app(app)
     
